@@ -1,0 +1,29 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  scroll-behavior: smooth;
+}
+
+.skiptomaincontent{
+  position: absolute;
+  top: -100px;
+  left: -100px;
+  z-index: 3000;
+  padding: 2px 15px 2px 15px;
+  text-decoration: none;
+  color: #fffffe;
+  background-color: #008B8B;
+}
+
+.skiptomaincontent:hover {
+  top: 25px;
+  left: 0px;
+}
+
+.skiptomaincontent:focus-visible {
+  top: 30px;
+  left: 30px;
+  border: 1px solid white;
+}

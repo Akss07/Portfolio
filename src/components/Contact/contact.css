@@ -1,0 +1,207 @@
+.contact{
+    width: 100%;
+    padding-top: 2rem;
+}
+
+.contact__container{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+    padding: 2rem;
+}
+
+.contact__image{
+    width: 100%;
+    height:100%;
+}
+
+.contact__details{
+    display: flex;
+    flex-direction: column;
+}
+
+.address__left p{
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.address__right p{
+    margin-bottom: 0.5rem;
+}
+
+.right__container{
+    width: 100%;
+}
+
+.main-form{
+    display: flex; 
+    flex-direction: column;
+    margin-top: 1rem;
+    min-width: 12rem;
+    border-radius: 4px;
+}
+.form__label {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+}
+
+.input-label {
+    height: 54px;
+}
+
+input:required:invalid {
+    border: 1px solid #f9423d;
+}
+
+textarea:required:invalid {
+    border: 1px solid #f9423d;
+}
+
+.message{
+    font-weight: 2rem;
+}
+
+.main-form textarea{
+    width: 100%;
+    background: none;
+    font-size: 1rem;
+    outline: none;
+    padding: 0.8rem 1rem;
+    border: 1px solid #8C8C8C;
+    min-height: 10rem;
+}
+
+.form-label-btn {
+    position: relative;
+    padding: 0.5rem 1.25rem;
+    border: none;
+    border-radius: 0.5rem;
+    outline: none;
+    transition: all .35s;
+    font-size: 1rem;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+    background-color: #008B8B;
+}
+
+.name__value{
+   color: #008B8B;
+}
+
+.message__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+.sent__image{
+    width:300px;
+    height:300px;
+}
+
+
+.messages{
+    height:100vh;
+    padding: 2rem;
+}
+
+.spin{
+    padding: 10rem;
+}
+
+/* from https://css.gg/spinner, License: https://fontawesome.com/license */
+
+.gg-spinner {
+    transform: scale(var(--ggs,1));
+}
+.gg-spinner,
+.gg-spinner::after,
+.gg-spinner::before{
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    width: 50px;
+    height: 50px;
+    left: 35px ;
+}
+   
+.gg-spinner::after,
+.gg-spinner::before {
+    content: "";
+    position: absolute;
+    border-radius: 100px;
+}
+   
+.gg-spinner::before {
+    animation: spinner 1s
+    cubic-bezier(.6,0,.4,1) infinite;
+    border: 3px solid transparent;
+    border-top-color: currentColor;
+}
+.gg-spinner::after {
+    border: 3px solid;
+    opacity: .2;
+}
+
+@keyframes spinner {
+    0% { transform: rotate(0deg) }
+    to { transform: rotate(359deg) }
+} 
+
+.com__spin,
+.com__spin::after,
+.com__spin::before{
+    width: 30px;
+    height: 30px;
+    left: 104px;
+    top: -5px;
+}
+
+@media screen and (min-width: 768px){
+    .contact__container{
+        flex-direction: row;
+    }
+
+    .contact__image{
+        width:100%;
+        height:100%;
+    }
+
+    .contact__details{
+        flex-direction: row;
+    }
+
+    .address__left{
+        width: 40%;
+        border-right: 1px solid black;
+    }
+
+    .address__right{
+        margin-left: 1rem;
+     }
+
+     .sent__image{
+        width:430px;
+        height: 430px;
+    }
+
+    .spin{
+        padding: 0rem;
+    }
+    .gg-spinner,
+    .gg-spinner::after,
+    .gg-spinner::before{
+        left: 300px;
+        top: 100px;
+    }
+}
+
+@media(prefers-reduced-motion) {
+    .gg-spinner::before {
+      animation: none;
+    }
+  }

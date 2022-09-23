@@ -1,0 +1,253 @@
+.skills{
+  width: 100%;
+  height: calc(100vh - 70px);
+  padding-top: 2rem;
+  color:#008B8B;
+  background-color: #000;
+}
+
+.tabs{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin: 2.5rem;
+  border:1px solid black;
+  border-top: none;
+}
+
+.tab{
+  display: flex;
+  flex-direction: column;
+}
+
+.tabs__entries{
+  position: relative;
+  width: 100%;
+  border: 1px solid black;
+  border-left: none;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+}
+
+.tabs__entries:last-child{
+  border-right: none;
+}
+
+.tabs__entries:focus-within{
+  color: #008B8B;
+}
+
+.tabs__entries:hover{
+  color: #008B8B;
+}
+
+.tabs__entries--open{
+  border-bottom: 1px solid transparent;
+}
+
+.tabs__entries--open .tabs_tittle{
+  color: #008B8B;
+}
+
+.tabs__entries--open::before {
+  position: absolute;
+  display: block;
+  content: "";
+  top: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: calc(100% + 2px);
+  height: 0.313rem;
+  background: #008B8B;
+}
+
+.tabs_tittle{
+  padding: 0.938rem 0;
+  width: 100%;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  box-sizing: content-box;
+  outline: none;
+  font-size: 1rem;
+  background: transparent;
+  color: white;
+}
+
+.tabs_tittle:hover{
+    color:#008B8B;
+}
+
+.tabs_tittle:focus-within{
+  color:#008B8B;
+}
+
+.tabs__body{
+  display: none;
+}
+
+.tabs__body--open{
+  display:block;
+  padding: 0.5rem;
+  margin-left: 3rem;
+  width: 100%;
+  height: 100%;
+  color: white;
+}
+
+.skill__tittle{
+  padding-left: 1rem;
+  font-size: 1rem;
+}
+
+.progressbar__info{
+  width: 100%;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+.sJava{
+  height: 100%;
+  width: 98%;
+  border-radius: 4rem;    
+  text-align: right;
+  background-color: #008B8B;
+}
+
+.sPython{
+  height: 100%;
+  width: 80%;
+  background-color: #008B8B;
+  border-radius: 4rem;   
+  text-align: right;
+}
+
+.sKotlin{
+  height: 100%;
+  width: 60%;
+  border-radius: 4rem;    
+  text-align: right;
+  background-color: #008B8B;
+}
+
+.sHTML5{
+  height: 100%;
+  width: 98%;
+  border-radius: 4rem;    
+  text-align: right;
+  background-color: #008B8B;
+}
+
+.sCSS{
+  height: 100%;
+  width: 98%;
+  border-radius: 4rem;   
+  text-align: right;
+  background-color: #008B8B;
+}
+
+.sMicroservices{
+  height: 100%;
+  width: 70%;
+  border-radius: 4rem;    
+  text-align: right;
+  background-color: #008B8B;
+}
+
+.sSpringBoot{
+  height: 100%;
+  width: 80%;
+  border-radius: 4rem;    
+  text-align: right;
+  background-color: #008B8B;
+}
+
+.sRestAPi{
+  height: 100%;
+  width: 92%;
+  border-radius: 4rem;    
+  text-align: right;
+  background-color: #008B8B;
+}
+
+.sMySQL{
+  height: 100%;
+  width: 95%;
+  border-radius: 4rem;    
+  text-align: right;
+  background-color: #008B8B;
+}
+
+.sPLSQL{
+  height: 100%;
+  width: 98%;
+  border-radius: 4rem;    
+  text-align: right;
+  background-color: #008B8B;
+}
+.sOracleDB{
+  height: 100%;
+  width: 50%;
+  border-radius: 4rem;    
+  text-align: right;
+  background-color: #008B8B;
+}
+.sMicroservices{
+  height: 100%;
+  width: 70%;
+  border-radius: 4rem;    
+  text-align: right;
+  background-color: #008B8B;
+}
+
+.progresstext{
+  padding: 10;
+  padding-right: 0.5rem;  
+  font-weight: 900;
+  color: white;
+}
+
+
+@media screen and (min-width: 768px){
+  
+  .tabs{
+    flex-direction: column;
+    margin: 4.688rem;
+  }
+  
+  .tab{
+    flex-direction: row;
+  }
+  
+  .tabs__entries{
+    width: 50%;
+    background-color: #008B8B;
+  }
+  
+  .tabs__entries--open{
+    background: white;
+    border-bottom: 1px solid transparent;
+  }
+  
+  .tabs__panel{
+    padding: 0.5rem;
+    background-color: white;
+  }
+  
+  .tabs__body--open{
+    color: black;
+    background-color: white;
+    color:#008B8B;
+    margin-left: 0;
+  }
+  
+  .tabs__entries:focus-within{
+    background-color: white;
+  }
+  
+  .tabs__entries:hover{
+    background-color: white;
+  }
+    
+}

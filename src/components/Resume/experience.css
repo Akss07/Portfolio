@@ -1,0 +1,82 @@
+.experience{
+  padding-top: 2rem;
+  width: 100%;
+  background-color: #000;
+}
+
+.experience__info--left {
+  position: relative;
+  width: 18.75rem;
+  height: 2.5rem;
+  text-align: center;
+  background: #008B8B;
+}
+
+.experience__info--left:after {
+  position: absolute;
+  content: ""; 
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-left: 20px solid black;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+    
+}
+
+.experience__info--left:before {
+  position: absolute;
+  content: "";
+  right: -20px;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-left: 20px solid #008B8B;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+    
+}
+
+.experience__info--right{
+  padding: 2.5rem 0 1rem 5.5rem;
+  border-left: 1px solid white;
+}
+
+.company{
+  display: inline-block;
+  margin-bottom: 0.5rem;
+  padding: 0 1.2rem;
+  border: 1px solid #F7E612;
+  font-size: 1.3rem;
+  color: #F7E612
+}
+
+.exp__icon{
+  display: inline-block;
+  border: 1px solid white;
+  border-radius: 50%;
+  padding: 0.5rem;
+  padding-top: 0rem;
+  margin-right: 5rem;
+  margin-left: -8rem;
+  background-color: #008B8B;
+  color:white;
+}
+
+/* from  https://fontawesome.com/icons/briefcase?s=solid, License: https://fontawesome.com/license */
+
+.exp__icon::before {
+  display: inline-block;
+  content: "\f0b1";
+  padding-right: 3px;
+  vertical-align: middle;
+  font-weight: 900;
+  font-family: "Font Awesome 5 Free";
+}
+
+@media screen and (min-width: 768px){
+  .experience__info--right{
+    width: 25rem;
+  }
+}

@@ -1,0 +1,114 @@
+/* https://fontawesome.com/icons/mobile-screen-button?s=solid, License: https://fontawesome.com/license */
+/* https://fontawesome.com/icons/envelope?s=solid, License: https://fontawesome.com/license */
+
+.topnav{
+    width: 100%;
+    color: black;
+}
+
+.topnav__wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.313rem 0rem;
+    background-color: #008B8B;
+}
+
+.topnav__left{
+    display: flex;
+    flex-direction: row;
+}
+
+.topnav__contact{
+    display: flex;
+    align-items: center;
+    margin-left: 2rem;
+}
+
+.topnav__contact--info{
+    display: none;
+    margin-left: 0.5rem;
+    font-size: 1rem;
+}
+
+.mob__icon, .mail__icon{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+.mob__icon::before{
+    display: inline-block;
+    content: "\f3cd";
+    vertical-align: middle;
+    padding-right: 0.188rem;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+}
+
+.mail__icon::before{
+    display: inline-block;
+    content: "\f0e0";
+    vertical-align: middle;
+    padding-right: 0.188rem;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+}
+
+.hamburger{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 2rem;
+    height: 1.25rem;
+    cursor: pointer;
+}
+
+.bar{
+    display: block;
+    width: 1.6rem;
+    height: 0.19rem;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    background-color: white;
+} 
+
+#hamburger.is-active .bar:nth-child(2) {
+    opacity: 0;
+}
+
+#hamburger.is-active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+}
+
+#hamburger.is-active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+}
+
+@media screen and (min-width: 768px) {
+
+    .topnav__wrapper {
+        background-color: white;;
+    }
+
+    .topnav__contact--info{
+        display: block;
+    }
+
+    .mob__icon, .mail__icon{
+        color: black;
+    }
+
+    .bar{
+        display: none;
+    }
+}
+
+/*Doesn't show any animation, if animation is off in settings*/
+
+@media(prefers-reduced-motion) {
+
+    .bar{
+        transition: none;
+    }
+  }

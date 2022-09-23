@@ -1,0 +1,116 @@
+.education{
+    padding-top: 2rem;
+    width: 100%;
+}
+
+.edu__content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.edu__container{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    padding:1.5rem;
+    margin:1rem;
+    justify-content: center;
+}
+
+.education__info--left {
+    position: relative;
+    width: 18.75rem;
+    height: 2.5rem;
+    text-align: center;
+    background: #008B8B;
+}
+
+.education__info--left:after {
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 20px solid white;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+}
+
+.education__info--left:before {
+    position: absolute;
+    content: "";
+    right: -20px;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 20px solid #008B8B;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+}
+
+.degree{
+    align-items: center;
+    padding: 0.4rem;
+    color: white;
+}
+
+.education__info--right{
+    padding: 2.5rem 0 1rem 5.5rem;
+    border-left: 1px solid black;
+}
+
+.edu__icon{
+    display: inline-block;
+    padding: 0.5rem;
+    padding-top: 0rem;
+    margin-right: 5rem;
+    margin-left: -8.3rem;
+    border: 1px solid black;
+    border-radius: 50%;
+    color:white;
+    background-color: #008B8B;
+}
+
+/* from  https://fontawesome.com/icons/graduation-cap?s=solid, License: https://fontawesome.com/license */
+
+.edu__icon::before {
+    display: inline-block;
+    content: "\f19d";
+    padding-right: 0.188rem;
+    vertical-align: middle;
+    font-weight: 900;
+    font-family: "Font Awesome 5 Free";
+}
+
+.university{
+    display: inline-block;
+    padding: 0 1.2rem;
+    margin-bottom: 0.5rem;
+    border: 1px solid #F7E612;
+    font-size: 1.3rem;
+}
+
+.degree__tittle{
+    line-height: 1.8rem;
+    font-size: 1rem;
+    color: #999;
+}
+
+@media screen and (min-width: 768px){
+
+    .edu__container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    .education__info--right{
+        width: 25rem;
+    }
+}

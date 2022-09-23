@@ -1,0 +1,76 @@
+.blogs{
+  width: 100%;
+}
+
+.blogs__tittle{
+  padding-bottom: 0.2rem;
+  padding-top:2rem;
+  margin-bottom: 1rem;
+  border-bottom: 4px double rgba(247, 197, 106, 0.35);
+  font-size: 2rem;
+  text-align: center;
+  color: #008B8B;
+}
+
+.accordion {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  margin: auto;
+  width: 80%;
+  min-width: 20rem;
+  box-shadow: 0px 0px 5px rgb(0 0 0 / 10%);
+}
+  
+.accordion__title {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  padding: 1rem;
+  padding-right: 3rem;
+  border: none;
+  border: 1px solid #F7E612;
+  font: inherit;
+  font-weight: bold;
+  text-align: left;
+  color:#008B8B;
+  background-color: white;
+}
+
+.accordion__title::after {
+  position: absolute;
+  right: 1rem;
+  top: calc(50% - 1ch);
+}
+
+.accordion__entry{
+  margin-bottom: 2rem;
+}
+
+.accordion__title::after { 
+  content: "\2795";
+}
+  
+.accordion__entry--open .accordion__title::after { 
+  content: "\2796";
+}
+  
+.accordion__body { 
+  display: none;
+  padding: 1rem;
+  border-bottom: 1px solid black;
+}
+  
+.accordion__entry--open .accordion__body { 
+  display: block;
+  white-space: pre-line;
+}
+
+.blog__heading, .paragraph, .blog__paragraph{
+  margin-bottom: 0.5rem;
+  letter-spacing: -0.003em;
+  line-height: 30px;
+}
+
+
+  

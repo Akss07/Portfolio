@@ -1,0 +1,94 @@
+.about{
+    padding: 2rem;
+}
+
+.tittle{
+    margin-bottom: 1rem;
+    padding-bottom: 0.2rem;
+    border-bottom: 4px double rgba(247, 197, 106, 0.35);
+    font-size: 2rem;
+    text-align: center;
+    color: #008B8B;
+}
+
+.inner__container{
+    display: flex;
+    flex-direction: column;
+}
+
+.content__container{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+.content__left{
+    padding: 0.5rem;
+}
+
+.content__introduction{
+    letter-spacing: -0.003rem;
+    line-height: 30px;
+}
+
+.my__image{
+    width: 300px;
+    height: 300px;
+    border-radius: 4rem;
+}
+
+.designation{
+    text-align: center;
+    color: #008B8B;
+}
+
+.certificates{
+    max-width: 50rem;
+    padding: 2rem;
+}
+
+.certificates h2{
+    margin-bottom: 1rem;
+    color: #008B8B;
+}
+
+/* from https://fontawesome.com/icons/trophy?s=solid, License: https://fontawesome.com/license */
+
+.certificates h2::after{
+    display: inline-block;
+    content: "\f091";
+    padding-right: 3px;
+    vertical-align: middle;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: #F7E612;
+}
+
+.list__items{
+    padding-left: 0.5rem;
+    padding-bottom: 0.5rem;
+    list-style-type: disclosure-closed;
+}
+
+@media screen and (min-width: 1200px) {
+    .container{
+        padding-left: 12rem;
+        padding-right: 12rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .content__container{
+        flex-direction: row;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .content__container{
+        flex-direction: row;
+    }
+
+    .content__introduction{
+        padding: 2rem;
+    }
+}
