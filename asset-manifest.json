@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/Akss07/Portfolio-Website/static/css/main.ca57b4b7.css",
-    "main.js": "/Akss07/Portfolio-Website/static/js/main.f51a54fe.js",
-    "static/js/787.bd02f72e.chunk.js": "/Akss07/Portfolio-Website/static/js/787.bd02f72e.chunk.js",
-    "static/media/myimage.jpg": "/Akss07/Portfolio-Website/static/media/myimage.473ec2ebc03d9aefd9fb.jpg",
-    "static/media/Travel_Image.jpg": "/Akss07/Portfolio-Website/static/media/Travel_Image.6a843dbfcb7f5e9a378c.jpg",
-    "static/media/hotel_managment.jpg": "/Akss07/Portfolio-Website/static/media/hotel_managment.8479fcdf08d7f1afbccc.jpg",
-    "static/media/womenInTech_project.png": "/Akss07/Portfolio-Website/static/media/womenInTech_project.9865138a83cee7db0830.png",
-    "static/media/exam_portal_image.jpg": "/Akss07/Portfolio-Website/static/media/exam_portal_image.73f98b34b2e15402276d.jpg",
-    "static/media/dashboard.png": "/Akss07/Portfolio-Website/static/media/dashboard.735d2c4014b443fe691f.png",
-    "static/media/contact.png": "/Akss07/Portfolio-Website/static/media/contact.03532d2743847f9b5763.png",
-    "static/media/messageSents.png": "/Akss07/Portfolio-Website/static/media/messageSents.8cebc648b5827324afed.png",
-    "static/media/proud_coder.png": "/Akss07/Portfolio-Website/static/media/proud_coder.8fb3d7ae01c859b09148.png",
-    "static/media/number_guessing_image.png": "/Akss07/Portfolio-Website/static/media/number_guessing_image.10a797ebb3412fff5e2f.png",
-    "index.html": "/Akss07/Portfolio-Website/index.html",
-    "main.ca57b4b7.css.map": "/Akss07/Portfolio-Website/static/css/main.ca57b4b7.css.map",
-    "main.f51a54fe.js.map": "/Akss07/Portfolio-Website/static/js/main.f51a54fe.js.map",
-    "787.bd02f72e.chunk.js.map": "/Akss07/Portfolio-Website/static/js/787.bd02f72e.chunk.js.map"
+    "main.css": "/Portfolio-Website/static/css/main.ca57b4b7.css",
+    "main.js": "/Portfolio-Website/static/js/main.1610ade3.js",
+    "static/js/787.9420c4a9.chunk.js": "/Portfolio-Website/static/js/787.9420c4a9.chunk.js",
+    "static/media/myimage.jpg": "/Portfolio-Website/static/media/myimage.473ec2ebc03d9aefd9fb.jpg",
+    "static/media/Travel_Image.jpg": "/Portfolio-Website/static/media/Travel_Image.6a843dbfcb7f5e9a378c.jpg",
+    "static/media/hotel_managment.jpg": "/Portfolio-Website/static/media/hotel_managment.8479fcdf08d7f1afbccc.jpg",
+    "static/media/womenInTech_project.png": "/Portfolio-Website/static/media/womenInTech_project.9865138a83cee7db0830.png",
+    "static/media/exam_portal_image.jpg": "/Portfolio-Website/static/media/exam_portal_image.73f98b34b2e15402276d.jpg",
+    "static/media/dashboard.png": "/Portfolio-Website/static/media/dashboard.735d2c4014b443fe691f.png",
+    "static/media/contact.png": "/Portfolio-Website/static/media/contact.03532d2743847f9b5763.png",
+    "static/media/messageSents.png": "/Portfolio-Website/static/media/messageSents.8cebc648b5827324afed.png",
+    "static/media/proud_coder.png": "/Portfolio-Website/static/media/proud_coder.8fb3d7ae01c859b09148.png",
+    "static/media/number_guessing_image.png": "/Portfolio-Website/static/media/number_guessing_image.10a797ebb3412fff5e2f.png",
+    "index.html": "/Portfolio-Website/index.html",
+    "main.ca57b4b7.css.map": "/Portfolio-Website/static/css/main.ca57b4b7.css.map",
+    "main.1610ade3.js.map": "/Portfolio-Website/static/js/main.1610ade3.js.map",
+    "787.9420c4a9.chunk.js.map": "/Portfolio-Website/static/js/787.9420c4a9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ca57b4b7.css",
-    "static/js/main.f51a54fe.js"
+    "static/js/main.1610ade3.js"
   ]
 }
